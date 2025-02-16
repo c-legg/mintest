@@ -1,0 +1,95 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Noto Sans, Noto Sans SC, Source Sans Pro, Source Han Sans, Segoe UI, Arial, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, '华文细黑';
+    height: 100%;
+}
+
+div.page {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+div.main-page {
+    background: #E5FEFF;
+    margin: auto;
+    min-height: calc(100vh - 78px);
+}
+
+table.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding: auto;
+    background: #99ccff;
+    margin: auto;
+    width: 100%;
+    z-index: 114514;
+}
+
+.nav thead td {
+    text-align: center;
+}
+
+.nav thead td:hover {
+    text-decoration: underline black;
+    background-color: #555;
+    color: white;
+}
+
+.nav thead td b a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+div.main-text {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.14514px;
+    border-radius: 12.5px;
+    border-color: #cccccc;
+    background: #ffffff;
+    padding: 50px;
+    min-width: 800px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #368cd6;
+    display: block;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+footer {
+    height: 42px;
+    background: #114514;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+pre code,
+code {
+    border: #ddd soild 1px;
+    overflow: auto;
+    background: #ffffff;
+    font-size: 14px;
+    font-family: 'Courier New', 'JetBrains Mono', Consolas;
+}
+
+hr {
+    color: #ddd;
+}
